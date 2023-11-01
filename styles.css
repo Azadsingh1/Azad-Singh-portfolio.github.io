@@ -715,3 +715,24 @@ footer{
   display:flex;
   gap:1rem;
 }
+
+/* Responsive styles for tablet screens */
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Responsive styles for mobile screens */
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
